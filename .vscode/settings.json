@@ -23,5 +23,16 @@
         "activityBar.background": "#D4A0F5",
         "titleBar.activeBackground": "#E5C5F9",
         "titleBar.activeForeground": "#2A0740"
-    }
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "postgres local",
+            "connectString": "postgres://postgres:postgrespw@localhost:55000"
+        }
+    ]
 }
